@@ -1,0 +1,19 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "日常记录",
+  "main": "index.js",
+  "author": "zxw",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.9",
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "@vuepress/plugin-nprogress": "^1.9.9",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-code-copy": "^1.0.6"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
