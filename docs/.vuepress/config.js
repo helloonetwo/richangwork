@@ -24,12 +24,14 @@ module.exports = {
     lastUpdated: '上次更新',
     nav: [
       { text: '首页', link: '/' },
-      { text: '设计模式', link: '/Design/' },
+      { text: '设计模式', link: '/design/' },
+      { text: 'antd 工作记录', link: '/antd/' },
+      { text: 'vue3 造轮子',  link:"https://helloonetwo.github.io/xiao-ui-website/#/" }
     ],
     navbar: true,
     sidebar: {
       collapsable: true,
-      '/Design/': [
+      '/design/': [
         {
           title: '设计模式',
           collapsable: false,
@@ -40,6 +42,16 @@ module.exports = {
             '发布订阅模式',
             '策略模式',
             '代理模式',
+          ],
+        },
+      ],
+      '/antd/': [
+        {
+          title: 'antd工作记录',
+          collapsable: false,
+          children: [
+            '表格',
+            'searchForm搜索框组件'
           ],
         },
       ],
