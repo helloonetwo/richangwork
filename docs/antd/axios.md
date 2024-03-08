@@ -15,6 +15,5 @@ const instance = axios.create({
 
 ```
 
-
 ## 寻求解决方案，transformRequest，可以在请求发送前对请求处理， 但是有个很关键的问题，就是默认使用transformRequest处理后，请求体内容回默认变成 formData,导致所有请求都失败，
 [再次寻求解决方案， 结果解决方案很简单，请求体带上'content-type:application/json;charset=UTF-8']  

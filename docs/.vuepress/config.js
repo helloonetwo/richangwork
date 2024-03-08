@@ -1,8 +1,8 @@
 const path = require('path')
 module.exports = {
-  title: '日常记录',
+  title: '前端博客',
   base: '/work',
-  description: '日常记录',
+  description: '前端随记',
   head: [
     ['link', { rel: 'icon', href: `logo.png` }],
     ['meta', { name: 'theme-color', content: '#1890ff' }],
@@ -25,8 +25,9 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '设计模式', link: '/design/' },
-      { text: 'antd 工作记录', link: '/antd/' },
-      { text: 'vue3 造轮子',  link:"https://helloonetwo.github.io/xiao-ui-website/#/" }
+      { text: '前端规范', link: '/coding/' },
+      // { text: 'antd 工作记录', link: '/antd/' },
+      // { text: 'vue3 造轮子',  link:"https://helloonetwo.github.io/xiao-ui-website/#/" }
     ],
     navbar: true,
     sidebar: {
@@ -42,6 +43,24 @@ module.exports = {
             '发布订阅模式',
             '策略模式',
             '代理模式',
+          ],
+        },
+      ],
+      '/coding/': [
+        {
+          title: '前端规范',
+          collapsable: false,
+          children: [
+            '通用编码规约',
+            'HTML 编码规约',
+            'CSS 编码规约',
+            'JavaScript 编码规约',
+            'Node.js 编码规约',
+            'TypeScript 编码规约',
+            'VS Code 配置SonarLint',
+            'Git提交信息规范',
+            'Git版本管理规范',
+            'vue编码规范'
           ],
         },
       ],
