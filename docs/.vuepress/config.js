@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
   title: '前端博客',
-  base: '/work',
+  base: '/',
   description: '前端随记',
   head: [
     ['link', { rel: 'icon', href: `logo.png` }],
