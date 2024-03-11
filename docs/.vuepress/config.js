@@ -24,7 +24,7 @@ module.exports = {
     lastUpdated: '上次更新',
     nav: [
       { text: '首页', link: '/' },
-      { text: '设计模式', link: '/design/' },
+      { text: '设计模式', link: '/mode/' },
       { text: '前端规范', link: '/coding/' },
       // { text: 'antd 工作记录', link: '/antd/' },
       // { text: 'vue3 造轮子',  link:"https://helloonetwo.github.io/xiao-ui-website/#/" }
@@ -32,7 +32,7 @@ module.exports = {
     navbar: true,
     sidebar: {
       collapsable: true,
-      '/design/': [
+      '/mode/': [
         {
           title: '设计模式',
           collapsable: false,
